@@ -169,8 +169,7 @@ In all group projects I ensured that contributions were credited fairly and that
 | Goal | Target Date | Status |
 |---|---|---|
 | Complete Naïve Bayes ML project | Mid 2026 | In Progress |
-| Upload all project repos to GitHub | 2025 | In Progress |
-| Complete WIL mock interview | 2025 | Done |
+| Complete WIL mock interview | 2026 | Done |
 | Finalise Digital Portfolio (POE) | 2026 | In Progress |
 | Graduate with Diploma in Applications Development | 2026 | On Track |
 | Secure first developer role (Java / Backend) | 2026/2027 | Upcoming |
