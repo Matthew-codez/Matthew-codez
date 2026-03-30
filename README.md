@@ -104,6 +104,21 @@ Preparing for this mock interview pushed me to articulate experiences I had neve
 
 ---
 
+## WIL Artefact – UML Diagram
+
+> System Design Artefact | 2026
+
+This UML diagram represents the structure and relationships within one of my core systems. It demonstrates my understanding of object-oriented design, class relationships, and system architecture.
+
+- **Artefact:** [UML Diagram]()
+- **Type:** Class Diagram
+- **Tools Used:** Draw.io
+
+**Reflection:**
+Creating this UML diagram helped me visualise how different components of the system interact. It reinforced my understanding of relationships such as associations, inheritance, and encapsulation.
+
+I also realised the importance of planning before coding, as a clear design makes implementation much easier and reduces errors. If I were to improve this diagram, I would simplify certain areas to improve readability and ensure scalability for larger systems.
+
 ## Graduate Attributes
 
 ### Ubuntu — People, Interpersonal & Interprofessional Skills
