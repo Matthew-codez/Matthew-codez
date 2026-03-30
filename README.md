@@ -54,7 +54,10 @@ A Java desktop application that helps students find accommodation with search, f
 - **Tech:** Java · Java Swing · H2 Database · OOP
 - **Artefacts:** [Source Code](https://github.com/keem-sys/ResFinder.git)
 
-**Reflection (Select & Reflect):**
+**Selection Justification (Select):**  
+I selected this project because it demonstrates my ability to work in a team and build a complete application with both user interaction and backend integration.
+
+**Reflection (Reflect):**
 This project taught me how to build a complete desktop application from scratch as part of a team. My specific contribution was implementing the contact form, which required understanding how user input connects to the database layer. I learned the importance of separating concerns in code — keeping UI away from data logic. Working in a team also taught me how to communicate clearly when tasks depend on each other.
 
 ---
@@ -68,12 +71,15 @@ A client-server application allowing students to enrol in courses and administra
 - **Tech:** Java · Java Swing · Database · Client-Server Architecture
 - **Artefacts:** [Source Code](https://github.com/Matthew-codez/Student-Staff-Enrollment-System.git)
 
-**Reflection (Select & Reflect):**
-This was my most technically challenging project. Building the server side meant I had to understand how the client connects to the server. Implementing the DAO pattern taught me how to write clean, reusable database code. When something broke on the server it was my code so i had to fix it, I learned to stay calm, debug, and communicate progress to my team while working through the problem.
+**Selection Justification (Select):**  
+I selected this project because it demonstrates my ability to work with client-server architecture and implement backend logic using structured design patterns.
+
+**Reflection (Reflect):**
+This was my most technically challenging project. Building the server side meant I had to understand how the client connects to the server. Implementing the DAO pattern taught me how to write clean, reusable database code. When something broke on the server it was my code so I had to fix it, I learned to stay calm, debug, and communicate progress to my team while working through the problem.
 
 ---
 
-### Naïve Bayes Classifier *(Coming Soon)*
+### Naïve Bayes Classifier
 > Coursework Project | 2026
 
 Python machine learning project implementing a Naïve Bayes classifier algorithm using NumPy.
@@ -81,8 +87,11 @@ Python machine learning project implementing a Naïve Bayes classifier algorithm
 - **Tech:** Python · NumPy
 - **Artefacts:** Source code will be linked upon completion
 
-**Reflection (Select & Reflect):**
-*To be completed upon project submission. This project is introducing me to machine learning concepts and Python-based scientific computing, expanding my skills beyond Java into data-driven problem solving.*
+**Selection Justification (Select):**  
+I selected this project because it represents my transition into machine learning and data-driven problem solving using Python.
+
+**Reflection (Reflect):**
+This project is helping me understand how machine learning algorithms work in practice. I am learning how probability concepts are applied in classification problems and how to implement these using Python and NumPy. It is challenging but is improving my logical thinking and problem-solving skills.
 
 ---
 
@@ -99,7 +108,10 @@ As part of my WIL preparation I completed a mock interview covering technical sk
   - What is your highest level of education?
   - What do you think is the biggest issue our industry faces today?
 
-**Reflection:**
+**Selection Justification (Select):**  
+I selected this artefact because it demonstrates my ability to communicate my skills and experiences in a professional setting.
+
+**Reflection (Reflect):**
 Preparing for this mock interview pushed me to articulate experiences I had never put into words before. Describing how I juggled ResFinder, the Enrolment System, and my part-time job in one semester helped me realise how much I had actually achieved under pressure. I learned that technical skill alone is not enough and being able to communicate your thinking clearly is just as important in the workplace.
 
 ---
@@ -110,25 +122,42 @@ Preparing for this mock interview pushed me to articulate experiences I had neve
 
 This UML diagram represents the structure and relationships within one of my core systems. It demonstrates my understanding of object-oriented design, class relationships, and system architecture.
 
-- **Artefact:** [UML Diagram]()
+- **Artefact:** [UML Diagram](https://raw.githubusercontent.com/Matthew-codez/Matthew-codez/main/STARTUP_UML.png)
 - **Type:** Class Diagram
 - **Tools Used:** Draw.io
 
-**Reflection:**
+**Selection Justification (Select):**  
+I selected this artefact because it demonstrates my understanding of system design, object-oriented principles, and class relationships.
+
+**Reflection (Reflect):**
 Creating this UML diagram helped me visualise how different components of the system interact. It reinforced my understanding of relationships such as associations, inheritance, and encapsulation.
 
 I also realised the importance of planning before coding, as a clear design makes implementation much easier and reduces errors. If I were to improve this diagram, I would simplify certain areas to improve readability and ensure scalability for larger systems.
 
+---
+
+## Connection of Learning (Connect)
+
+Across my projects, I can clearly see my development from building basic Java applications to designing more complex systems involving client-server architecture and database integration.
+
+In ResFinder, I focused on user interaction and frontend functionality such as form handling. In the Student Staff Enrolment System, I progressed to backend development, implementing server-side logic and DAO patterns. This shows my growth from working mainly with interfaces to understanding full system architecture.
+
+These projects are connected through principles such as object-oriented programming, separation of concerns, and database interaction. Each project built on the previous one, strengthening my ability to design scalable and maintainable systems.
+
+My current work with Python and machine learning represents the next stage of this progression, expanding my problem-solving skills into data-driven applications.
+
+---
+
 ## Graduate Attributes
 
 ### Ubuntu — People, Interpersonal & Interprofessional Skills
-In both team projects I worked alongside classmates with different strengths and working styles. On the Enrolment System, my team depended on my server-side code before they could continue their work. I made sure to communicate my progress openly and deliver on time so the team would not be blocked. I understand that most of the time software development isnt a solo effort and the quality of the end product depends on how well the team works together.
+In both team projects I worked alongside classmates with different strengths and working styles. On the Enrolment System, my team depended on my server-side code before they could continue their work. I made sure to communicate my progress openly and deliver on time so the team would not be blocked. I understand that most of the time software development isn't a solo effort and the quality of the end product depends on how well the team works together for example, when the server component of the Enrolment System was delayed, I communicated progress daily to ensure my teammates could plan their work accordingly.
 
 ### Knowing, Technological Capability & Foresight
 Through ResFinder and the Enrolment System I applied Java, database design, and software architecture principles to solve real problems that students at institutions like CPUT face like finding accommodation. These are not just academic exercises; they are systems that, if deployed, would directly improve student experiences. My expansion into Python and machine learning reflects my awareness that the technology landscape is always shifting and I need to grow with it.
 
 ### Resilience & Problem-Solving Capability
-In third year I managed two team projects simultaneously alongside coursework and a part-time job. When the Enrolment System server broke and my team was waiting on me. I debugged, communicated my progress, and resolved the issue. I also proactively mapped out my deadlines at the start of semester and made a decision to tackle the higher-priority project first, which kept both projects on track.
+In third year I managed two team projects simultaneously alongside coursework and a part-time job. When the Enrolment System server broke and my team was waiting on me, I took responsibility, debugged the issue, and communicated my progress. I also proactively mapped out my deadlines at the start of semester and made a decision to tackle the higher-priority project first, which kept both projects on track.
 
 ### Ethical Capability & Respect
 In all group projects I ensured that contributions were credited fairly and that no teammate's work was misrepresented. I believe good software also means honest software and not overstating what a system can do, writing code that is maintainable for whoever comes after you, and being transparent about limitations. In my mock interview preparation I was deliberate about only claiming skills I can genuinely back up.
