@@ -8,6 +8,7 @@ Cape Town, Western Cape &nbsp;|&nbsp; 230048870@mycput.ac.za &nbsp;|&nbsp; +27 6
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](http://linkedin.com/in/matthew-ferreira-375019315)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Matthew-codez)
+[![CV](https://img.shields.io/badge/My_CV-4CAF50?style=for-the-badge&logo=read-the-docs&logoColor=white)](./CV.pdf)
 
 </div>
 
@@ -202,8 +203,8 @@ In all group projects I ensured that contributions were credited fairly and that
 | Goal | Target Date | Status |
 |---|---|---|
 | Complete Naïve Bayes ML project | Mid 2026 | In Progress |
-| Complete WIL mock interview | 2026 | ✅ Done |
-| Finalise Digital Portfolio (POE) | 2026 | In Progress |
+| Complete WIL mock interview | 2026 | Done |
+| Finalise Digital Portfolio (POE) | 2026 | Done |
 | Graduate with Diploma in Applications Development | 2026 | On Track |
 | Secure first developer role (Java / Backend) | 2026/2027 | Upcoming |
 
