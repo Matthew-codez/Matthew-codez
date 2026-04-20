@@ -54,7 +54,7 @@ A Java desktop application that helps students find accommodation with search, f
 - **Tech:** Java · Java Swing · H2 Database · OOP
 - **Artefacts:** [Source Code](https://github.com/keem-sys/ResFinder.git)
 
-**Selection Justification (Select):**  
+**Selection Justification (Select):**
 I selected this project because it demonstrates my ability to work in a team and build a complete application with both user interaction and backend integration.
 
 **Reflection (Reflect):**
@@ -71,11 +71,11 @@ A client-server application allowing students to enrol in courses and administra
 - **Tech:** Java · Java Swing · Database · Client-Server Architecture
 - **Artefacts:** [Source Code](https://github.com/Matthew-codez/Student-Staff-Enrollment-System.git)
 
-**Selection Justification (Select):**  
+**Selection Justification (Select):**
 I selected this project because it demonstrates my ability to work with client-server architecture and implement backend logic using structured design patterns.
 
 **Reflection (Reflect):**
-This was my most technically challenging project. Building the server side meant I had to understand how the client connects to the server. Implementing the DAO pattern taught me how to write clean, reusable database code. When something broke on the server it was my code so I had to fix it, I learned to stay calm, debug, and communicate progress to my team while working through the problem.
+This was my most technically challenging project. Building the server side meant I had to understand how the client connects to the server. Implementing the DAO pattern taught me how to write clean, reusable database code. When something broke on the server it was my code so I had to fix it — I learned to stay calm, debug, and communicate progress to my team while working through the problem.
 
 ---
 
@@ -87,7 +87,7 @@ Python machine learning project implementing a Naïve Bayes classifier algorithm
 - **Tech:** Python · NumPy
 - **Artefacts:** Source code will be linked upon completion
 
-**Selection Justification (Select):**  
+**Selection Justification (Select):**
 I selected this project because it represents my transition into machine learning and data-driven problem solving using Python.
 
 **Reflection (Reflect):**
@@ -95,44 +95,77 @@ This project is helping me understand how machine learning algorithms work in pr
 
 ---
 
-## WIL Artefact – Mock Interview
+## WIL Artefacts
+
+### Mock Interview
 > Professional Development | 2026
 
 As part of my WIL preparation I completed a mock interview covering technical skills, problem-solving, and professional communication.
 
-- **Video Recording:** [Mock Interview](https://drive.google.com/file/d/13OyihKPL2krV7WA-2vUSpcV1AtIHfc_S/view?usp=sharing)
-- **Questions Covered:**
-  - Why do you want to work for this company?
-  - How can your greatest strength help you in this role?
-  - Describe a time you had to prioritise tasks
-  - What is your highest level of education?
-  - What do you think is the biggest issue our industry faces today?
+<div>
+  <a href="https://drive.google.com/file/d/13OyihKPL2krV7WA-2vUSpcV1AtIHfc_S/view?usp=sharing">
+    <img src="https://img.shields.io/badge/▶_Watch_Mock_Interview-FF0000?style=for-the-badge&logo=google-drive&logoColor=white" alt="Mock Interview Video"/>
+  </a>
+</div>
 
-**Selection Justification (Select):**  
+**Questions Covered:**
+- Why do you want to work for this company?
+- How can your greatest strength help you in this role?
+- Describe a time you had to prioritise tasks
+- What is your highest level of education?
+- What do you think is the biggest issue our industry faces today?
+
+**Selection Justification (Select):**
 I selected this artefact because it demonstrates my ability to communicate my skills and experiences in a professional setting.
 
-**Reflection (Reflect):**
-Preparing for this mock interview pushed me to articulate experiences I had never put into words before. Describing how I juggled ResFinder, the Enrolment System, and my part-time job in one semester helped me realise how much I had actually achieved under pressure. I learned that technical skill alone is not enough and being able to communicate your thinking clearly is just as important in the workplace.
+**Reflection on Mock Interview — STAR Method:**
+
+| | |
+|---|---|
+| **Situation** | As part of my WIL preparation, I was required to complete and record a mock interview to demonstrate my professional communication and readiness for the workplace. |
+| **Task** | I needed to answer a set of competency and behavioural interview questions on camera, covering topics like my strengths, prioritisation, and my understanding of the industry. |
+| **Action** | I prepared by reviewing each question in advance and structuring my answers around real experiences from my projects and part-time work. When asked about prioritisation, I drew on managing two team projects simultaneously alongside employment in the same semester. I recorded the interview and uploaded it to Google Drive for submission. |
+| **Result** | The experience made me realise how important verbal communication is alongside technical skill. Putting my experiences into words helped me recognise growth I hadn't consciously noticed. I am now more confident articulating my value in an interview setting and understand that preparation and self-awareness are just as important as technical ability. |
 
 ---
 
-## WIL Artefact – UML Diagram
-
+### UML Diagram
 > System Design Artefact | 2026
 
 This UML diagram represents the structure and relationships within one of my core systems. It demonstrates my understanding of object-oriented design, class relationships, and system architecture.
 
-- **Artefact:** [UML Diagram](https://raw.githubusercontent.com/Matthew-codez/Matthew-codez/main/STARTUP_UML.png)
+![UML Diagram](https://raw.githubusercontent.com/Matthew-codez/Matthew-codez/main/STARTUP_UML.png)
+
 - **Type:** Class Diagram
 - **Tools Used:** Draw.io
 
-**Selection Justification (Select):**  
+**Selection Justification (Select):**
 I selected this artefact because it demonstrates my understanding of system design, object-oriented principles, and class relationships.
 
 **Reflection (Reflect):**
-Creating this UML diagram helped me visualise how different components of the system interact. It reinforced my understanding of relationships such as associations, inheritance, and encapsulation.
+Creating this UML diagram helped me visualise how different components of the system interact. It reinforced my understanding of relationships such as associations, inheritance, and encapsulation. I also realised the importance of planning before coding, as a clear design makes implementation much easier and reduces errors. If I were to improve this diagram, I would simplify certain areas to improve readability and ensure scalability for larger systems.
 
-I also realised the importance of planning before coding, as a clear design makes implementation much easier and reduces errors. If I were to improve this diagram, I would simplify certain areas to improve readability and ensure scalability for larger systems.
+---
+
+## Reflection on Coding in Markdown — STAR Method
+
+| | |
+|---|---|
+| **Situation** | As part of my WIL digital portfolio submission, I was required to build and present my portfolio using Markdown on GitHub. |
+| **Task** | I needed to learn and apply GitHub Flavoured Markdown (GFM) to structure my CV, projects, and reflections in a readable, professional format suitable for a developer portfolio. |
+| **Action** | I researched GFM syntax and practised using headings, tables, badges, bullet points, and links. I structured my entire portfolio in a single README.md file, using Markdown to organise sections clearly and embed shields for my tech stack. I also used HTML elements like `<div align="center">` where Markdown alone was not sufficient. |
+| **Result** | I produced a well-structured, visually clear portfolio entirely in Markdown. This experience taught me that Markdown is a core developer communication tool — used daily in README files, pull requests, and documentation. I now feel confident writing and maintaining Markdown files in any professional or academic context. |
+
+---
+
+## Reflection on GitHub Pages — STAR Method
+
+| | |
+|---|---|
+| **Situation** | My digital portfolio needed to be publicly accessible online as a requirement of the POE submission, rather than existing only as a private repository. |
+| **Task** | I needed to deploy my GitHub portfolio to GitHub Pages so that it could be viewed at a live URL and submitted as a link on Blackboard. |
+| **Action** | I enabled GitHub Pages in my repository settings, selected the correct branch and root directory, and verified that my README.md rendered correctly as a public page. I checked that all links, badges, and embedded content displayed as intended on the live site. |
+| **Result** | My portfolio is now publicly deployed and accessible via a `github.io` URL. This process taught me the basics of static site deployment and reinforced the value of GitHub as a professional tool beyond just version control. Knowing how to publish work publicly is a practical skill I will carry into my career. |
 
 ---
 
@@ -151,16 +184,16 @@ My current work with Python and machine learning represents the next stage of th
 ## Graduate Attributes
 
 ### Ubuntu — People, Interpersonal & Interprofessional Skills
-In both team projects I worked alongside classmates with different strengths and working styles. On the Enrolment System, my team depended on my server-side code before they could continue their work. I made sure to communicate my progress openly and deliver on time so the team would not be blocked. I understand that most of the time software development isn't a solo effort and the quality of the end product depends on how well the team works together for example, when the server component of the Enrolment System was delayed, I communicated progress daily to ensure my teammates could plan their work accordingly.
+In both team projects I worked alongside classmates with different strengths and working styles. On the Enrolment System, my team depended on my server-side code before they could continue their work. I made sure to communicate my progress openly and deliver on time so the team would not be blocked. I understand that software development is rarely a solo effort and the quality of the end product depends on how well the team works together.
 
 ### Knowing, Technological Capability & Foresight
-Through ResFinder and the Enrolment System I applied Java, database design, and software architecture principles to solve real problems that students at institutions like CPUT face like finding accommodation. These are not just academic exercises; they are systems that, if deployed, would directly improve student experiences. My expansion into Python and machine learning reflects my awareness that the technology landscape is always shifting and I need to grow with it.
+Through ResFinder and the Enrolment System I applied Java, database design, and software architecture principles to solve real problems that students at institutions like CPUT face. These are not just academic exercises — they are systems that, if deployed, would directly improve student experiences. My expansion into Python and machine learning reflects my awareness that the technology landscape is always shifting and I need to grow with it.
 
 ### Resilience & Problem-Solving Capability
 In third year I managed two team projects simultaneously alongside coursework and a part-time job. When the Enrolment System server broke and my team was waiting on me, I took responsibility, debugged the issue, and communicated my progress. I also proactively mapped out my deadlines at the start of semester and made a decision to tackle the higher-priority project first, which kept both projects on track.
 
 ### Ethical Capability & Respect
-In all group projects I ensured that contributions were credited fairly and that no teammate's work was misrepresented. I believe good software also means honest software and not overstating what a system can do, writing code that is maintainable for whoever comes after you, and being transparent about limitations. In my mock interview preparation I was deliberate about only claiming skills I can genuinely back up.
+In all group projects I ensured that contributions were credited fairly and that no teammate's work was misrepresented. I believe good software also means honest software — not overstating what a system can do, writing code that is maintainable for whoever comes after you, and being transparent about limitations. In my mock interview preparation I was deliberate about only claiming skills I can genuinely back up.
 
 ---
 
@@ -169,7 +202,7 @@ In all group projects I ensured that contributions were credited fairly and that
 | Goal | Target Date | Status |
 |---|---|---|
 | Complete Naïve Bayes ML project | Mid 2026 | In Progress |
-| Complete WIL mock interview | 2026 | Done |
+| Complete WIL mock interview | 2026 | ✅ Done |
 | Finalise Digital Portfolio (POE) | 2026 | In Progress |
 | Graduate with Diploma in Applications Development | 2026 | On Track |
 | Secure first developer role (Java / Backend) | 2026/2027 | Upcoming |
@@ -194,9 +227,5 @@ In all group projects I ensured that contributions were credited fairly and that
 ---
 
 <div align="center">
-
-*"Clean code, real solutions."*
-
-Feel free to explore my repos and reach out!
-
+<sub>Built with Markdown · Deployed on GitHub Pages · Cape Peninsula University of Technology · 2026</sub>
 </div>
