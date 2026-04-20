@@ -1,15 +1,10 @@
 <div align="center">
-
-# Matthew Ferreira
-
-**Applications Development Student | Java Developer**
-
-Cape Town, Western Cape &nbsp;|&nbsp; 230048870@mycput.ac.za &nbsp;|&nbsp; +27 64 519 2046
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](http://linkedin.com/in/matthew-ferreira-375019315)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Matthew-codez)
-[![CV](https://img.shields.io/badge/My_CV-4CAF50?style=for-the-badge&logo=read-the-docs&logoColor=white)](./CV.pdf)
-
+<h1>Matthew Ferreira</h1>
+<p><strong>Applications Development Student | Java Developer</strong></p>
+<p>Cape Town, Western Cape &nbsp;|&nbsp; 230048870@mycput.ac.za &nbsp;|&nbsp; +27 64 519 2046</p>
+<a href="http://linkedin.com/in/matthew-ferreira-375019315"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://github.com/Matthew-codez"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="./CV.pdf"><img src="https://img.shields.io/badge/My_CV-4CAF50?style=for-the-badge&logo=read-the-docs&logoColor=white"/></a>
 </div>
 
 ---
