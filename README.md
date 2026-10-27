@@ -39,6 +39,34 @@ Currently expanding into **Python for Machine Learning** which focuses on workin
 
 ---
 
+## Project Showcase
+
+Screenshots of the front ends of the systems I have built. Images live in the `images/` folder of this repository.
+
+### CPUT Campus Connect
+> React | Tailwind CSS | Spring Boot | MySQL | Team Project 2026 | [Code on GitHub](https://github.com/keem-sys/CPUTCampusConnect)
+
+A full-stack web application that gives students, event organizers and administrators one searchable hub for campus events. It replaces scattered notice boards and WhatsApp groups with a dashboard, role-based access (JWT and BCrypt) and automated RSVPs that stop at venue capacity. **My role:** Interface Designer. I wrote the TypeScript for the front end.
+
+<!-- ADD BACK WHEN SCREENSHOTS ARE UPLOADED (delete this line and the closing arrow line)
+| Dashboard | Event Search and RSVP |
+|---|---|
+| <img src="images/campusconnect-dashboard.png" alt="Campus Connect dashboard"/> | <img src="images/campusconnect-events.png" alt="Campus Connect event search and RSVP"/> |
+-->
+
+### ResFinder
+> Java | Java Swing | H2 Database | Team Project 2025 | [Code on GitHub](https://github.com/Matthew-codez/ResFinder)
+
+A desktop application that helps students find student accommodation near campus, with search, filtering, sorting and user authentication. [EDIT: one sentence on your role.]
+
+<!-- ADD BACK WHEN SCREENSHOTS ARE UPLOADED (delete this line and the closing arrow line)
+| Login | Search Results |
+|---|---|
+| <img src="images/accommodation-login.png" alt="ResFinder login"/> | <img src="images/accommodation-search.png" alt="ResFinder search results"/> |
+-->
+
+---
+
 ## WIL Artefacts
 
 ### Mock Interview
@@ -91,6 +119,152 @@ Creating this UML diagram helped me visualise how different components of the sy
 
 ---
 
+## Agile Project Management Artefacts
+
+These artefacts come from the team project **CPUT Campus Connect** (PRT362S Project III, 2026), which we delivered using Agile (Scrum) practices. Each artefact has **Evidence** (what I produced) and a **Reflection** (what I learned), following the Collect, Select, Reflect, Connect framework.
+
+---
+
+### Agile Team Charter
+
+**Evidence**
+
+> A living agreement that defines how our team works together.
+
+| Item | Detail |
+|---|---|
+| **Team Name** | [EDIT: team name] |
+| **Project** | CPUT Campus Connect: a campus events hub for students, organizers and admins |
+| **Purpose / Vision** | Give students, faculty and clubs one searchable place to discover, promote and manage campus events, with automated RSVPs. |
+| **Team Members and Roles** | Ebenezer Kouakou: Project Leader; Lisakhanya Tinae Jonga: System Analyst; Matthew Ferreira: Interface Designer; Mogamat Wazeer: Programmer; Jayden Avontuur: Database Administrator; Coben Maistry: GitHub / File Manager |
+| **Core Values** | Respect, accountability, open communication, quality work |
+| **Working Agreements** | Attend stand-ups; commit work in small, regular Git commits; review each other's code before merging; ask for help early rather than late |
+| **Communication** | WhatsApp group for daily updates; GitHub for code and version control |
+| **Definition of Done** | Feature works end to end (React front end and Spring Boot API), is committed to GitHub, and has been reviewed by one teammate |
+| **Conflict Resolution** | Discuss openly as a team first; escalate to the lecturer only if unresolved |
+
+**Reflection (STAR)**
+
+| | |
+|---|---|
+| **Situation** | Our team was starting a group project with members who had different strengths and schedules. |
+| **Task** | We needed to agree on how we would communicate, divide work, and handle problems before writing any code. |
+| **Action** | We co-created a team charter covering our purpose, roles, values, and working agreements, and everyone contributed to it. |
+| **Result** | Having expectations written down reduced confusion about who was doing what. I learned that a charter is most valuable when it is revisited, not filed away, and that agreeing on a Definition of Done early prevents arguments later. |
+
+---
+
+### User Stories and Tasks
+
+**Evidence**
+
+User stories describe features from the end user's perspective. Each story was then broken into smaller tasks.
+
+| ID | User Story | Acceptance Criteria | Tasks |
+|---|---|---|---|
+| US-01 | As a **student**, I want to register and log in securely, so that my account and registrations are protected. | Valid credentials grant access via a JWT session; invalid ones show an error | Build login and register screens in TypeScript; create Users table; implement BCrypt hashing and JWT login |
+| US-02 | As a **student**, I want a dashboard of upcoming events, so that I can see what is happening on campus in one place. | Upcoming events are listed with title, date, venue and capacity | Build dashboard in TypeScript; build events API endpoint; display event cards |
+| US-03 | As a **student**, I want to search and filter events by keyword, category and date, so that I can find relevant events quickly. | Results update according to the chosen filters | Build search and filter bar; add filter query to the API; connect UI to the API |
+| US-04 | As a **student**, I want to RSVP with one click, so that I do not need spreadsheets or forms to register. | Registration is saved; registration is blocked once capacity is reached | Add RSVP button; create Registrations table; add capacity check in the service layer |
+| US-05 | As an **organizer**, I want to create, edit and delete events, so that students always see accurate information. | Event requires title, description, date, time, venue and capacity; changes are saved | Build event form in TypeScript; implement CRUD endpoints; restrict access to the Organizer role |
+| US-06 | As an **admin**, I want role-based access control, so that each user type can only use the features meant for them. | Admin, Organizer and Student roles are enforced on the API | Define roles; configure Spring Security rules |
+
+[EDIT: adjust to match your team's real stories]
+
+**Reflection (STAR)**
+
+| | |
+|---|---|
+| **Situation** | Our requirements were broad and it was unclear where to begin development. |
+| **Task** | We needed to turn the idea into clear, testable pieces of work that could be shared across the team. |
+| **Action** | We wrote user stories in the "As a... I want... so that..." format, added acceptance criteria, and split each story into technical tasks. |
+| **Result** | Thinking from the user's perspective kept us focused on value rather than just code. Breaking stories into tasks made estimating and assigning work much easier, and I learned that a story without acceptance criteria is hard to call "done". |
+
+---
+
+### Product Backlog
+
+**Evidence**
+
+The product backlog is the prioritised list of everything the product needs. Priority uses MoSCoW (Must, Should, Could, Won't) and estimates are in story points.
+
+| ID | Backlog Item | Type | Priority | Points | Status |
+|---|---|---|---|---|---|
+| PB-01 | User registration and login (BCrypt and JWT) | Feature | Must | 8 | Done |
+| PB-02 | Role-based access control (Admin, Organizer, Student) | Feature | Must | 5 | Done |
+| PB-03 | Events dashboard for upcoming events | Feature | Must | 5 | Done |
+| PB-04 | Organizer event CRUD | Feature | Must | 8 | In Progress |
+| PB-05 | Keyword, category and date filtering | Feature | Should | 5 | In Progress |
+| PB-06 | One-click RSVP with capacity limit | Feature | Must | 8 | In Progress |
+| PB-07 | Fix dashboard crash when no events exist | Bug | Should | 2 | Not Started |
+| PB-08 | Email reminders for registered events | Feature | Could | 13 | Not Started |
+
+[EDIT: adjust statuses to match your real progress]
+
+**Reflection (STAR)**
+
+| | |
+|---|---|
+| **Situation** | We had more ideas than time available to build them. |
+| **Task** | We needed to decide what to build first so the most valuable features were delivered. |
+| **Action** | We collected all features, bugs, and improvements into one backlog, ranked them with MoSCoW, and estimated each in story points. |
+| **Result** | The backlog made trade-offs visible: nice-to-have items like the map view were consciously postponed. I learned that a backlog is never "finished" and needs regular re-prioritisation. |
+
+---
+
+### Sprint Backlog
+
+**Evidence**
+
+**Sprint 1:** [EDIT: dd Mon] to [EDIT: dd Mon]
+**Sprint Goal:** Deliver secure registration and login, and an events dashboard connected to the MySQL database.
+
+| Task | Linked Story | Owner | Estimate | Status |
+|---|---|---|---|---|
+| Build login and register screens (TypeScript) | US-01 | Matthew | 3h | Done |
+| Create Users table in MySQL | US-01 | Jayden | 1h | Done |
+| Implement BCrypt hashing and JWT login | US-01 | Mogamat | 4h | Done |
+| Build events dashboard (TypeScript) | US-02 | Matthew | 3h | Done |
+| Build events API endpoint | US-02 | Mogamat | 3h | Done |
+| Display event cards from API data (TypeScript) | US-02 | Matthew | 3h | Done |
+
+**Reflection (STAR)**
+
+| | |
+|---|---|
+| **Situation** | With a fixed deadline, we could not work on the entire product backlog at once. |
+| **Task** | We had to choose a realistic amount of work for each sprint and commit to a clear goal. |
+| **Action** | In sprint planning we pulled the highest-priority items from the product backlog, defined a sprint goal, and broke the work into hour-level tasks with owners. |
+| **Result** | A short, focused sprint kept the team aligned and made progress easy to see on the board. I learned that over-committing leads to unfinished work, so estimates need to be honest. |
+
+---
+
+### Agile Logbook
+
+**Evidence**
+
+A record of our stand-ups, sprint planning, and retrospective.
+
+| Date | Type | What Was Done | Blockers / Notes |
+|---|---|---|---|
+| [EDIT] | Sprint Planning | Agreed the sprint goal and selected backlog items | Needed to agree on the database structure |
+| [EDIT] | Daily Stand-up | Login and register screens built; Users table created | None |
+| [EDIT] | Daily Stand-up | JWT login implemented; dashboard started | Merge conflict on GitHub, resolved together |
+| [EDIT] | Daily Stand-up | Events endpoint working; front end connected to the API | Dashboard failed when there were no events (logged as PB-07) |
+| [EDIT] | Sprint Review | Demonstrated login and dashboard to the team | Feedback: clearer error messages |
+| [EDIT] | Retrospective | **Went well:** clear roles, small commits. **Improve:** estimate more accurately, test earlier | Action: test each feature before marking it Done |
+
+**Reflection (STAR)**
+
+| | |
+|---|---|
+| **Situation** | Work was happening quickly across several people, and it was easy to lose track of decisions and problems. |
+| **Task** | We needed a consistent record of progress, blockers, and lessons learned. |
+| **Action** | We logged each stand-up, the sprint review, and the retrospective, noting what was done, what blocked us, and what we would change. |
+| **Result** | The logbook gave us a clear history and made the retrospective meaningful because we could look back at real events. I learned that regular, honest reflection improves the next sprint more than any tool does. |
+
+---
+
 ## Reflection on Coding in Markdown — STAR Method
 
 | | |
@@ -115,7 +289,7 @@ Creating this UML diagram helped me visualise how different components of the sy
 
 ## Connection of Learning (Connect)
 
-Across my studies, I can clearly see my development from building basic Java applications to designing more complex systems involving client-server architecture and database integration. These experiences are connected through principles such as object-oriented programming, separation of concerns, and database interaction. Each stage built on the previous one, strengthening my ability to design scalable and maintainable systems.
+Across my studies, I can clearly see my development from building basic Java applications to designing more complex systems involving client-server architecture and database integration. These experiences are connected through principles such as object-oriented programming, separation of concerns, and database interaction. Each stage built on the previous one, strengthening my ability to design scalable and maintainable systems. Working in Agile sprints added a process layer to this progression: user stories, backlogs, and retrospectives taught me how to plan and deliver software as a team, not just write it.
 
 My current work with Python and machine learning represents the next stage of this progression, expanding my problem-solving skills into data-driven applications.
 
@@ -144,6 +318,7 @@ In all group work I ensured that contributions were credited fairly and that no 
 | Complete Naïve Bayes ML project | Mid 2026 | In Progress |
 | Complete WIL mock interview | 2026 | Done |
 | Finalise Digital Portfolio (POE) | 2026 | Done |
+| Complete Agile artefacts (Charter, Backlogs, Logbook) | 2026 | Done |
 | Graduate with Diploma in Applications Development | 2026 | On Track |
 | Secure first developer role (Java / Backend) | 2026/2027 | Upcoming |
 
