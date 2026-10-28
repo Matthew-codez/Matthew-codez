@@ -46,24 +46,18 @@ Screenshots of the front ends of the systems I have built. Images live in the `i
 ### CPUT Campus Connect
 > React | Tailwind CSS | Spring Boot | MySQL | Team Project 2026 | [Code on GitHub](https://github.com/keem-sys/CPUTCampusConnect)
 
-A full-stack web application that gives students, event organizers and administrators one searchable hub for campus events. It replaces scattered notice boards and WhatsApp groups with a dashboard, role-based access (JWT and BCrypt) and automated RSVPs that stop at venue capacity. **My role:** Interface Designer. I wrote the TypeScript for the front end.
+A full-stack web application that gives students, event organizers and administrators one searchable hub for campus events. It replaces scattered notice boards and WhatsApp groups with a dashboard, role-based access (JWT and BCrypt) and automated RSVPs that stop at venue capacity. **My role:** Interface Designer. I wrote the TypeScript for the front end. After a failed push on my side, the Project Leader committed my files for me, so that work shows under his name in the commit history.
 
-<!-- ADD BACK WHEN SCREENSHOTS ARE UPLOADED (delete this line and the closing arrow line)
-| Dashboard | Event Search and RSVP |
-|---|---|
-| <img src="images/campusconnect-dashboard.png" alt="Campus Connect dashboard"/> | <img src="images/campusconnect-events.png" alt="Campus Connect event search and RSVP"/> |
--->
+<img src="images/campusconnect-dashboard.png" alt="Campus Connect dashboard" width="48%"/> <img src="images/campusconnect-login.png" alt="Campus Connect login" width="48%"/>
+
+---
 
 ### ResFinder
 > Java | Java Swing | H2 Database | Team Project 2025 | [Code on GitHub](https://github.com/Matthew-codez/ResFinder)
 
-A desktop application that helps students find student accommodation near campus, with search, filtering, sorting and user authentication. [EDIT: one sentence on your role.]
+A desktop application that helps students find student accommodation near campus, with search, filtering, sorting and user authentication.
 
-<!-- ADD BACK WHEN SCREENSHOTS ARE UPLOADED (delete this line and the closing arrow line)
-| Login | Search Results |
-|---|---|
-| <img src="images/accommodation-login.png" alt="ResFinder login"/> | <img src="images/accommodation-search.png" alt="ResFinder search results"/> |
--->
+<img src="resfinder-dashboard.png" alt="ResFinder dashboard"/>
 
 ---
 
@@ -133,7 +127,6 @@ These artefacts come from the team project **CPUT Campus Connect** (PRT362S Proj
 
 | Item | Detail |
 |---|---|
-| **Team Name** | [EDIT: team name] |
 | **Project** | CPUT Campus Connect: a campus events hub for students, organizers and admins |
 | **Purpose / Vision** | Give students, faculty and clubs one searchable place to discover, promote and manage campus events, with automated RSVPs. |
 | **Team Members and Roles** | Ebenezer Kouakou: Project Leader; Lisakhanya Tinae Jonga: System Analyst; Matthew Ferreira: Interface Designer; Mogamat Wazeer: Programmer; Jayden Avontuur: Database Administrator; Coben Maistry: GitHub / File Manager |
@@ -169,7 +162,6 @@ User stories describe features from the end user's perspective. Each story was t
 | US-05 | As an **organizer**, I want to create, edit and delete events, so that students always see accurate information. | Event requires title, description, date, time, venue and capacity; changes are saved | Build event form in TypeScript; implement CRUD endpoints; restrict access to the Organizer role |
 | US-06 | As an **admin**, I want role-based access control, so that each user type can only use the features meant for them. | Admin, Organizer and Student roles are enforced on the API | Define roles; configure Spring Security rules |
 
-[EDIT: adjust to match your team's real stories]
 
 **Reflection (STAR)**
 
@@ -193,13 +185,15 @@ The product backlog is the prioritised list of everything the product needs. Pri
 | PB-01 | User registration and login (BCrypt and JWT) | Feature | Must | 8 | Done |
 | PB-02 | Role-based access control (Admin, Organizer, Student) | Feature | Must | 5 | Done |
 | PB-03 | Events dashboard for upcoming events | Feature | Must | 5 | Done |
-| PB-04 | Organizer event CRUD | Feature | Must | 8 | In Progress |
-| PB-05 | Keyword, category and date filtering | Feature | Should | 5 | In Progress |
-| PB-06 | One-click RSVP with capacity limit | Feature | Must | 8 | In Progress |
-| PB-07 | Fix dashboard crash when no events exist | Bug | Should | 2 | Not Started |
-| PB-08 | Email reminders for registered events | Feature | Could | 13 | Not Started |
+| PB-04 | Organizer event management pages | Feature | Must | 8 | Done |
+| PB-05 | Keyword, category and date filtering | Feature | Should | 5 | [EDIT] |
+| PB-06 | One-click RSVP with capacity limit | Feature | Must | 8 | Done |
+| PB-07 | Student RSVP management | Feature | Should | 5 | Done |
+| PB-08 | Admin pages | Feature | Should | 5 | Done |
+| PB-09 | Fix login redirect and duplicate RSVP notifications | Bug | Must | 3 | Done |
+| PB-10 | Prevent organizers from RSVPing to events | Bug | Should | 2 | Done |
 
-[EDIT: adjust statuses to match your real progress]
+
 
 **Reflection (STAR)**
 
@@ -208,7 +202,7 @@ The product backlog is the prioritised list of everything the product needs. Pri
 | **Situation** | We had more ideas than time available to build them. |
 | **Task** | We needed to decide what to build first so the most valuable features were delivered. |
 | **Action** | We collected all features, bugs, and improvements into one backlog, ranked them with MoSCoW, and estimated each in story points. |
-| **Result** | The backlog made trade-offs visible: nice-to-have items like the map view were consciously postponed. I learned that a backlog is never "finished" and needs regular re-prioritisation. |
+| **Result** | The backlog made trade-offs visible: lower-priority items were consciously postponed until the core features were stable. I learned that a backlog is never "finished" and needs regular re-prioritisation. |
 
 ---
 
@@ -216,17 +210,21 @@ The product backlog is the prioritised list of everything the product needs. Pri
 
 **Evidence**
 
-**Sprint 1:** [EDIT: dd Mon] to [EDIT: dd Mon]
-**Sprint Goal:** Deliver secure registration and login, and an events dashboard connected to the MySQL database.
+**Sprint:** 28 Sep 2026 to 12 Oct 2026 (Term 4)
 
-| Task | Linked Story | Owner | Estimate | Status |
+**Sprint Goal:** Deliver the RSVP system with capacity limits, plus the organiser and admin pages and an improved dashboard.
+
+| Task | Linked Story | Owner | Completed | Status |
 |---|---|---|---|---|
-| Build login and register screens (TypeScript) | US-01 | Matthew | 3h | Done |
-| Create Users table in MySQL | US-01 | Jayden | 1h | Done |
-| Implement BCrypt hashing and JWT login | US-01 | Mogamat | 4h | Done |
-| Build events dashboard (TypeScript) | US-02 | Matthew | 3h | Done |
-| Build events API endpoint | US-02 | Mogamat | 3h | Done |
-| Display event cards from API data (TypeScript) | US-02 | Matthew | 3h | Done |
+| Fix login redirect and duplicate RSVP notifications | US-01, US-04 | Mogamat | 29 Sep | Done |
+| Enforce event capacity for RSVPs | US-04 | Mogamat | 2 Oct | Done |
+| Prevent organizers from RSVPing | US-06 | Mogamat | 2 Oct | Done |
+| Add student RSVP management | US-04 | Mogamat | 3 Oct | Done |
+| Add organiser pages and enhance event capabilities | US-05 | Ebenezer | 10 Oct | Done |
+| Add admin pages | US-06 | Ebenezer | 10 Oct | Done |
+| Improve dashboard | US-02 | Ebenezer | 11 Oct | Done |
+| Improve EventDetails and Organizer Events pages | US-05 | Ebenezer | 12 Oct | Done |
+| Build front-end pages in TypeScript (committed by Ebenezer after a failed push) | US-02, US-05 | Matthew | 28 Sep to 12 Oct | Done |
 
 **Reflection (STAR)**
 
@@ -235,7 +233,7 @@ The product backlog is the prioritised list of everything the product needs. Pri
 | **Situation** | With a fixed deadline, we could not work on the entire product backlog at once. |
 | **Task** | We had to choose a realistic amount of work for each sprint and commit to a clear goal. |
 | **Action** | In sprint planning we pulled the highest-priority items from the product backlog, defined a sprint goal, and broke the work into hour-level tasks with owners. |
-| **Result** | A short, focused sprint kept the team aligned and made progress easy to see on the board. I learned that over-committing leads to unfinished work, so estimates need to be honest. |
+| **Result** | A short, focused sprint kept the team aligned and made progress easy to see. I learned that over-committing leads to unfinished work, so estimates need to be honest. |
 
 ---
 
@@ -247,12 +245,13 @@ A record of our stand-ups, sprint planning, and retrospective.
 
 | Date | Type | What Was Done | Blockers / Notes |
 |---|---|---|---|
-| [EDIT] | Sprint Planning | Agreed the sprint goal and selected backlog items | Needed to agree on the database structure |
-| [EDIT] | Daily Stand-up | Login and register screens built; Users table created | None |
-| [EDIT] | Daily Stand-up | JWT login implemented; dashboard started | Merge conflict on GitHub, resolved together |
-| [EDIT] | Daily Stand-up | Events endpoint working; front end connected to the API | Dashboard failed when there were no events (logged as PB-07) |
-| [EDIT] | Sprint Review | Demonstrated login and dashboard to the team | Feedback: clearer error messages |
-| [EDIT] | Retrospective | **Went well:** clear roles, small commits. **Improve:** estimate more accurately, test earlier | Action: test each feature before marking it Done |
+| 28 Sep 2026 | Sprint Planning | Agreed the sprint goal (RSVP system and organiser/admin pages) and selected backlog items | None |
+| 29 Sep 2026 | Daily Stand-up | Login redirect bug and duplicate RSVP notifications fixed | Both issues logged as PB-09 |
+| 2 Oct 2026 | Daily Stand-up | Event capacity enforced for RSVPs; organizers blocked from RSVPing | Organizers could RSVP to events, logged as PB-10 |
+| 3 to 4 Oct 2026 | Daily Stand-up | Student RSVP management added; pull request #17 merged into the main branch | None |
+| 10 to 11 Oct 2026 | Daily Stand-up | Organiser and admin pages added; dashboard improved | Several branches merged via pull requests #18 and #19 |
+| 12 Oct 2026 | Sprint Review | Event details and organiser events pages improved; pull request #20 merged; work demonstrated to the team | None recorded |
+| 12 Oct 2026 | Retrospective | **Went well:** clear roles, regular pull requests. **Improve:** catch bugs earlier through testing | Action: test each feature before marking it Done |
 
 **Reflection (STAR)**
 
